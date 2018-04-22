@@ -23,22 +23,44 @@
 			.ready {
 				text-transform: uppercase;
 				font-weight: bold;
-			}	
+			}
 
 			.first {
 				background-color: yellow;
-			}									
+			}
 
 			button {
 				margin-left: 1em;
 			}
 		</style>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			var string  = "";
+
+			string += "<button><a href='#ak'>Animal Kingdom</a></button>";            
+			string += "<button><a href='#bcs'>Better Call Saul</a></button>";
+			string += "<button><a href='#bm'>Black Mirror</a></button>";
+			string += "<button><a href='#f'>Fargo</a></button>";
+			string += "<button><a href='#hoc'>House of Cards</a></button>";
+			string += "<button><a href='#mm'>Mad Men</a></button>";
+			string += "<button><a href='#s8'>Sense8</a></button>";
+			string += "<button><a href='#sv'>Silicon Valley</a></button>";
+			string += "<button><a href='#t'>Taboo</a></button>";
+			string += "<button><a href='#ta'>The Americans</a></button>";
+			string += "<button><a href='#tl'>The Leftovers</a></button>";
+			string += "<button><a href='#td'>Training Day</a></button>";
+
+			$(".nav").html(string);
+			});
+		</script>
 	</head>
-	<body>		
+
+	<body>
 		<div class="nav"></div>
 
 		<ul id="ak"><b><a href="https://www.pogdesign.co.uk/cat/Animal-Kingdom-summary" target="_blank">Animal Kingdom</a></b>
-			<li class="ready first">Animal Kingdom S03E01<!--<button>Watched</button>--></li>
+			<li class="ready first">Animal Kingdom S03E01</li>
 			<li class="not-aired">Animal Kingdom S03E02</li>
 			<li class="not-aired">Animal Kingdom S03E03</li>
 			<li class="not-aired">Animal Kingdom S03E04</li>
@@ -74,8 +96,8 @@
 			<li class="not-downloaded">Black Mirror S03E03</li>
 			<li class="not-downloaded">Black Mirror S03E04</li>
 			<li class="not-downloaded">Black Mirror S03E05</li>
-			<li class="not-downloaded">Black Mirror S03E06</li>		
-		</ul>		
+			<li class="not-downloaded">Black Mirror S03E06</li>
+		</ul>
 
 		<div class="nav"></div>
 		
@@ -152,7 +174,7 @@
 			<li class="not-downloaded">Mad Men S07E11</li>
 			<li class="not-downloaded">Mad Men S07E12</li>
 			<li class="not-downloaded">Mad Men S07E13</li>
-			<li class="not-downloaded">Mad Men S07E14</li>						
+			<li class="not-downloaded">Mad Men S07E14</li>
 		</ul>
 
 		<div class="nav"></div>
@@ -169,7 +191,7 @@
 			<li class="not-downloaded">Sense8 S02E08</li>
 			<li class="not-downloaded">Sense8 S02E09</li>
 			<li class="not-downloaded">Sense8 S02E10</li>
-		</ul>		
+		</ul>
 
 		<div class="nav"></div>
 
@@ -182,7 +204,7 @@
 			<li class="watched">Silicon Valley S04E06</li>
 			<li class="not-aired">Silicon Valley S04E07</li>
 			<li class="not-aired">Silicon Valley S04E08</li>
-		</ul>		
+		</ul>
 
 		<div class="nav"></div>
 			
@@ -264,7 +286,7 @@
 			<li class="not-downloaded">The Americans S05E10</li>
 			<li class="not-downloaded">The Americans S05E11</li>
 			<li class="not-aired">The Americans S05E12</li>
-			<li class="not-aired">The Americans S05E13</li>												
+			<li class="not-aired">The Americans S05E13</li>
 		</ul>
 
 		<div class="nav"></div>
@@ -296,6 +318,6 @@
 			<li class="ready">Training Day S01E11</li>
 			<li class="ready">Training Day S01E12</li>
 			<li class="ready">Training Day S01E13</li>
-		</ul>		
+		</ul>
 	</body>
 </html>

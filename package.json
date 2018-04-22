@@ -1,0 +1,23 @@
+{
+  "name": "tv-shows-log",
+  "version": "1.0.0",
+  "description": "**Terminal** ``` $ node server.js ``` **Browser** link: [http://localhost:8009](http://localhost:8009)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jond999/tv-shows-log.git"
+  },
+  "author": "jond999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jond999/tv-shows-log/issues"
+  },
+  "homepage": "https://github.com/jond999/tv-shows-log#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
