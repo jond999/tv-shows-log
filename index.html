@@ -3,9 +3,6 @@
 	<head>
 		<title>TV Shows</title>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="script.js"></script>
-
 		<style>
 			.watched {
 				text-decoration: line-through;
@@ -34,24 +31,19 @@
 			}
 		</style>
 
-		<script type="text/javascript">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
 			$(document).ready(function() {
-			var string  = "";
+				var string  = "";
 
-			string += "<button><a href='#ak'>Animal Kingdom</a></button>";            
-			string += "<button><a href='#bcs'>Better Call Saul</a></button>";
-			string += "<button><a href='#bm'>Black Mirror</a></button>";
-			string += "<button><a href='#f'>Fargo</a></button>";
-			string += "<button><a href='#hoc'>House of Cards</a></button>";
-			string += "<button><a href='#mm'>Mad Men</a></button>";
-			string += "<button><a href='#s8'>Sense8</a></button>";
-			string += "<button><a href='#sv'>Silicon Valley</a></button>";
-			string += "<button><a href='#t'>Taboo</a></button>";
-			string += "<button><a href='#ta'>The Americans</a></button>";
-			string += "<button><a href='#tl'>The Leftovers</a></button>";
-			string += "<button><a href='#td'>Training Day</a></button>";
+				string += "<button><a href='#b'>Billions</a></button>";
+				string += "<button><a href='#bm'>Black Mirror</a></button>";
+				string += "<button><a href='#ftwd'>Fear The Walking Dead</a></button>";
+				string += "<button><a href='#h'>Homeland</a></button>";
+				string += "<button><a href='#sv'>Silicon Valley</a></button>";
+				string += "<button><a href='#w'>Westworld</a></button>";
 
-			$(".nav").html(string);
+				$(".nav").html(string);
 			});
 		</script>
 	</head>
@@ -59,265 +51,89 @@
 	<body>
 		<div class="nav"></div>
 
-		<ul id="ak"><b><a href="https://www.pogdesign.co.uk/cat/Animal-Kingdom-summary" target="_blank">Animal Kingdom</a></b>
-			<li class="ready first">Animal Kingdom S03E01</li>
-			<li class="not-aired">Animal Kingdom S03E02</li>
-			<li class="not-aired">Animal Kingdom S03E03</li>
-			<li class="not-aired">Animal Kingdom S03E04</li>
-		</ul>
-
-		<div class="nav"></div>
-
-		<ul id="bcs"><b><a href="https://www.pogdesign.co.uk/cat/Better-Call-Saul-summary" target="_blank">Better Call Saul</a></b>
-			<li class="watched">Better Call Saul S03E01</li>
-			<li class="watched">Better Call Saul S03E02</li>
-			<li class="watched">Better Call Saul S03E03</li>
-			<li class="watched">Better Call Saul S03E04</li>
-			<li class="watched">Better Call Saul S03E05</li>
-			<li class="watched">Better Call Saul S03E06</li>
-			<li class="watched">Better Call Saul S03E07</li>
-			<li class="not-aired">Better Call Saul S03E08</li>
-			<li class="not-aired">Better Call Saul S03E09</li>
-			<li class="not-aired">Better Call Saul S03E10</li>
+		<ul id="b"><b><a href="https://www.pogdesign.co.uk/cat/Billions-summary" target="_blank">Billions</a></b>
+			<li class="watched">Billions S03E01</li>
+			<li class="watched">Billions S03E02</li>
+			<li class="ready first">Billions S03E03</li>
+			<li class="ready">Billions S03E04</li>
+			<li class="not-aired">Billions S03E05</li>
+			<li class="not-aired">Billions S03E06</li>
+			<li class="not-aired">Billions S03E07</li>
+			<li class="not-aired">Billions S03E08</li>
+			<li class="not-aired">Billions S03E09</li>
+			<li class="not-aired">Billions S03E10</li>
+			<li class="not-aired">Billions S03E11</li>
+			<li class="not-aired">Billions S03E12</li>
 		</ul>
 
 		<div class="nav"></div>
 
 		<ul id="bm"><b><a href="https://www.pogdesign.co.uk/cat/Black-Mirror-summary" target="_blank">Black Mirror</a></b>
-			<li class="watched">Black Mirror S01E01</li>
-			<li class="watched">Black Mirror S01E02</li>
-			<li class="ready first">Black Mirror S01E03</li>
-			<li class="not-downloaded">Black Mirror S02E00</li>
-			<li class="not-downloaded">Black Mirror S02E01</li>
-			<li class="not-downloaded">Black Mirror S02E02</li>
-			<li class="not-downloaded">Black Mirror S02E03</li>
-			<li class="not-downloaded">Black Mirror S03E01</li>
-			<li class="not-downloaded">Black Mirror S03E02</li>
+			<li class="watched">Black Mirror S03E01</li>
+			<li class="watched">Black Mirror S03E02</li>
 			<li class="not-downloaded">Black Mirror S03E03</li>
 			<li class="not-downloaded">Black Mirror S03E04</li>
 			<li class="not-downloaded">Black Mirror S03E05</li>
 			<li class="not-downloaded">Black Mirror S03E06</li>
-		</ul>
-
-		<div class="nav"></div>
-		
-		<ul id="f"><b><a href="https://www.pogdesign.co.uk/cat/Fargo-summary" target="_blank">Fargo</a></b>
-			<li class="watched">Fargo S03E01</li>
-			<li class="watched">Fargo S03E02</li>
-			<li class="watched">Fargo S03E03</li>
-			<li class="watched">Fargo S03E04</li>
-			<li class="watched">Fargo S03E05</li>
-			<li class="watched">Fargo S03E06</li>
-			<li class="not-aired">Fargo S03E07</li>
-			<li class="not-aired">Fargo S03E08</li>
-			<li class="not-aired">Fargo S03E09</li>
-			<li class="not-aired">Fargo S03E10</li>
+			<li class="not-downloaded">Black Mirror S04E01</li>
+			<li class="not-downloaded">Black Mirror S04E02</li>
+			<li class="not-downloaded">Black Mirror S04E03</li>
+			<li class="not-downloaded">Black Mirror S04E04</li>
+			<li class="not-downloaded">Black Mirror S04E05</li>
+			<li class="not-downloaded">Black Mirror S04E06</li>
 		</ul>
 
 		<div class="nav"></div>
 
-		<ul id="hoc"><b><a href="https://www.pogdesign.co.uk/cat/House-of-Cards-summary" target="_blank">House of Cards</a></b>
-			<li class="not-downloaded">House of Cards S05E01</li>
-			<li class="not-downloaded">House of Cards S05E02</li>
-			<li class="not-downloaded">House of Cards S05E03</li>
-			<li class="not-downloaded">House of Cards S05E04</li>
-			<li class="not-downloaded">House of Cards S05E05</li>
-			<li class="not-downloaded">House of Cards S05E06</li>
-			<li class="not-downloaded">House of Cards S05E07</li>
-			<li class="not-downloaded">House of Cards S05E08</li>
-			<li class="not-downloaded">House of Cards S05E09</li>
-			<li class="not-downloaded">House of Cards S05E10</li>
-			<li class="not-downloaded">House of Cards S05E11</li>
-			<li class="not-downloaded">House of Cards S05E12</li>
-			<li class="not-downloaded">House of Cards S05E13</li>
-		</ul>
-	
-		<div class="nav"></div>
-		
-		<ul id="mm"><b><a href="https://www.pogdesign.co.uk/cat/Mad-Men-summary" target="_blank">Mad Men</a></b>
-			<li class="watched">Mad Men S05E01</li>
-			<li class="watched">Mad Men S05E02</li>
-			<li class="watched">Mad Men S05E03</li>
-			<li class="watched">Mad Men S05E04</li>
-			<li class="watched">Mad Men S05E05</li>
-			<li class="watched">Mad Men S05E06</li>
-			<li class="watched">Mad Men S05E07</li>
-			<li class="ready first">Mad Men S05E08</li>
-			<li class="ready">Mad Men S05E09</li>
-			<li class="not-downloaded">Mad Men S05E10</li>
-			<li class="not-downloaded">Mad Men S05E11</li>
-			<li class="not-downloaded">Mad Men S05E12</li>
-			<li class="not-downloaded">Mad Men S05E13</li>
-			<li class="not-downloaded">Mad Men S06E01</li>
-			<li class="not-downloaded">Mad Men S06E02</li>
-			<li class="not-downloaded">Mad Men S06E03</li>
-			<li class="not-downloaded">Mad Men S06E04</li>
-			<li class="not-downloaded">Mad Men S06E05</li>
-			<li class="not-downloaded">Mad Men S06E06</li>
-			<li class="not-downloaded">Mad Men S06E07</li>
-			<li class="not-downloaded">Mad Men S06E08</li>
-			<li class="not-downloaded">Mad Men S06E09</li>
-			<li class="not-downloaded">Mad Men S06E10</li>
-			<li class="not-downloaded">Mad Men S06E11</li>
-			<li class="not-downloaded">Mad Men S06E12</li>
-			<li class="not-downloaded">Mad Men S06E13</li>
-			<li class="not-downloaded">Mad Men S07E01</li>
-			<li class="not-downloaded">Mad Men S07E02</li>
-			<li class="not-downloaded">Mad Men S07E03</li>
-			<li class="not-downloaded">Mad Men S07E04</li>
-			<li class="not-downloaded">Mad Men S07E05</li>
-			<li class="not-downloaded">Mad Men S07E06</li>
-			<li class="not-downloaded">Mad Men S07E07</li>
-			<li class="not-downloaded">Mad Men S07E08</li>
-			<li class="not-downloaded">Mad Men S07E09</li>
-			<li class="not-downloaded">Mad Men S07E10</li>
-			<li class="not-downloaded">Mad Men S07E11</li>
-			<li class="not-downloaded">Mad Men S07E12</li>
-			<li class="not-downloaded">Mad Men S07E13</li>
-			<li class="not-downloaded">Mad Men S07E14</li>
+		<ul id="ftwd"><b><a href="https://www.pogdesign.co.uk/cat/Fear-The-Walking-Dead-summary" target="_blank">Fear The Walking Dead</a></b>
+			<li class="ready first">Fear The Walking Dead S04E01</li>
+			<li class="not-aired">Fear The Walking Dead S04E02</li>
+			<li class="not-aired">Fear The Walking Dead S04E03</li>
+			<li class="not-aired">Fear The Walking Dead S04E04</li>
+			<li class="not-aired">Fear The Walking Dead S04E05</li>
+			<li class="not-aired">Fear The Walking Dead S04E06</li>
+			<li class="not-aired">Fear The Walking Dead S04E07</li>
+			<li class="not-aired">Fear The Walking Dead S04E08</li>
 		</ul>
 
 		<div class="nav"></div>
 
-		<ul id="s8"><b><a href="https://www.pogdesign.co.uk/cat/Sense8-summary" target="_blank">Sense8</a></b>
-			<li class="ready first">Sense8 S02E00</li>
-			<li class="ready">Sense8 S02E01</li>
-			<li class="ready">Sense8 S02E02</li>
-			<li class="ready">Sense8 S02E03</li>
-			<li class="ready">Sense8 S02E04</li>
-			<li class="ready">Sense8 S02E05</li>
-			<li class="not-downloaded">Sense8 S02E06</li>
-			<li class="not-downloaded">Sense8 S02E07</li>
-			<li class="not-downloaded">Sense8 S02E08</li>
-			<li class="not-downloaded">Sense8 S02E09</li>
-			<li class="not-downloaded">Sense8 S02E10</li>
+		<ul id="h"><b><a href="https://www.pogdesign.co.uk/cat/Homeland-summary" target="_blank">Homeland</a></b>
+			<li class="watched">Homeland S07E01</li>
+			<li class="watched">Homeland S07E02</li>
+			<li class="watched">Homeland S07E03</li>
+			<li class="watched">Homeland S07E04</li>
+			<li class="watched">Homeland S07E05</li>
+			<li class="watched">Homeland S07E06</li>
+			<li class="watched">Homeland S07E07</li>
+			<li class="watched">Homeland S07E08</li>
+			<li class="watched">Homeland S07E09</li>
+			<li class="watched">Homeland S07E10</li>
+			<li class="not-aired">Homeland S07E11</li>
+			<li class="not-aired">Homeland S07E12</li>
 		</ul>
 
 		<div class="nav"></div>
 
 		<ul id="sv"><b><a href="https://www.pogdesign.co.uk/cat/Silicon-Valley-summary" target="_blank">Silicon Valley</a></b>
-			<li class="watched">Silicon Valley S04E01</li>
-			<li class="watched">Silicon Valley S04E02</li>
-			<li class="watched">Silicon Valley S04E03</li>
-			<li class="watched">Silicon Valley S04E04</li>
-			<li class="watched">Silicon Valley S04E05</li>
-			<li class="watched">Silicon Valley S04E06</li>
-			<li class="not-aired">Silicon Valley S04E07</li>
-			<li class="not-aired">Silicon Valley S04E08</li>
-		</ul>
-
-		<div class="nav"></div>
-			
-		<ul id="t"><b><a href="https://www.pogdesign.co.uk/cat/Taboo-summary" target="_blank">Taboo</a></b>
-			<li class="watched">Taboo S01E01</li>
-			<li class="ready first">Taboo S01E02</li>
-			<li class="not-downloaded">Taboo S01E03</li>
-			<li class="not-downloaded">Taboo S01E04</li>
-			<li class="not-downloaded">Taboo S01E05</li>
-			<li class="not-downloaded">Taboo S01E06</li>
-			<li class="not-downloaded">Taboo S01E07</li>
-			<li class="not-downloaded">Taboo S01E08</li>
+			<li class="watched">Silicon Valley S05E01</li>
+			<li class="watched">Silicon Valley S05E02</li>
+			<li class="watched">Silicon Valley S05E03</li>
+			<li class="watched">Silicon Valley S05E04</li>
+			<li class="not-aired">Silicon Valley S05E05</li>
+			<li class="not-aired">Silicon Valley S05E06</li>
+			<li class="not-aired">Silicon Valley S05E07</li>
+			<li class="not-aired">Silicon Valley S05E08</li>
 		</ul>
 
 		<div class="nav"></div>
 
-		<ul id="ta"><b><a href="https://www.pogdesign.co.uk/cat/The-Americans-summary" target="_blank">The Americans</a></b>
-			<li class="watched">The Americans S01E01</li>
-			<li class="watched">The Americans S01E02</li>
-			<li class="watched">The Americans S01E03</li>
-			<li class="watched">The Americans S01E04</li>
-			<li class="watched">The Americans S01E05</li>
-			<li class="watched">The Americans S01E06</li>
-			<li class="watched">The Americans S01E07</li>
-			<li class="watched">The Americans S01E08</li>
-			<li class="watched">The Americans S01E09</li>
-			<li class="watched">The Americans S01E10</li>
-			<li class="watched">The Americans S01E11</li>
-			<li class="watched">The Americans S01E12</li>
-			<li class="watched">The Americans S01E13</li>
-			<li class="watched">The Americans S02E01</li>
-			<li class="watched">The Americans S02E02</li>
-			<li class="watched">The Americans S02E03</li>
-			<li class="watched">The Americans S02E04</li>
-			<li class="watched">The Americans S02E05</li>
-			<li class="watched">The Americans S02E06</li>
-			<li class="watched">The Americans S02E07</li>
-			<li class="watched">The Americans S02E08</li>
-			<li class="watched">The Americans S02E09</li>
-			<li class="watched">The Americans S02E10</li>
-			<li class="ready first">The Americans S02E11</li>
-			<li class="ready">The Americans S02E12</li>
-			<li class="ready">The Americans S02E13</li>
-			<li class="not-downloaded">The Americans S03E01</li>
-			<li class="not-downloaded">The Americans S03E02</li>
-			<li class="not-downloaded">The Americans S03E03</li>
-			<li class="not-downloaded">The Americans S03E04</li>
-			<li class="not-downloaded">The Americans S03E05</li>
-			<li class="not-downloaded">The Americans S03E06</li>
-			<li class="not-downloaded">The Americans S03E07</li>
-			<li class="not-downloaded">The Americans S03E08</li>
-			<li class="not-downloaded">The Americans S03E09</li>
-			<li class="not-downloaded">The Americans S03E10</li>
-			<li class="not-downloaded">The Americans S03E11</li>
-			<li class="not-downloaded">The Americans S03E12</li>
-			<li class="not-downloaded">The Americans S03E13</li>
-			<li class="not-downloaded">The Americans S04E01</li>
-			<li class="not-downloaded">The Americans S04E02</li>
-			<li class="not-downloaded">The Americans S04E03</li>
-			<li class="not-downloaded">The Americans S04E04</li>
-			<li class="not-downloaded">The Americans S04E05</li>
-			<li class="not-downloaded">The Americans S04E06</li>
-			<li class="not-downloaded">The Americans S04E07</li>
-			<li class="not-downloaded">The Americans S04E08</li>
-			<li class="not-downloaded">The Americans S04E09</li>
-			<li class="not-downloaded">The Americans S04E10</li>
-			<li class="not-downloaded">The Americans S04E11</li>
-			<li class="not-downloaded">The Americans S04E12</li>
-			<li class="not-downloaded">The Americans S04E13</li>
-			<li class="not-downloaded">The Americans S05E01</li>
-			<li class="not-downloaded">The Americans S05E02</li>
-			<li class="not-downloaded">The Americans S05E03</li>
-			<li class="not-downloaded">The Americans S05E04</li>
-			<li class="not-downloaded">The Americans S05E05</li>
-			<li class="not-downloaded">The Americans S05E06</li>
-			<li class="not-downloaded">The Americans S05E07</li>
-			<li class="not-downloaded">The Americans S05E08</li>
-			<li class="not-downloaded">The Americans S05E09</li>
-			<li class="not-downloaded">The Americans S05E10</li>
-			<li class="not-downloaded">The Americans S05E11</li>
-			<li class="not-aired">The Americans S05E12</li>
-			<li class="not-aired">The Americans S05E13</li>
-		</ul>
-
-		<div class="nav"></div>
-
-		<ul id="tl"><b><a href="https://www.pogdesign.co.uk/cat/The-Leftovers-summary" target="_blank">The Leftovers</a></b>
-			<li class="watched">The Leftovers S03E01</li>
-			<li class="watched">The Leftovers S03E02</li>
-			<li class="watched">The Leftovers S03E03</li>
-			<li class="watched">The Leftovers S03E04</li> 
-			<li class="watched">The Leftovers S03E05</li>
-			<li class="watched">The Leftovers S03E06</li>
-			<li class="watched">The Leftovers S03E07</li>
-			<li class="not-aired">The Leftovers S03E08</li>
-		</ul>
-
-		<div class="nav"></div>
-
-		<ul id="td"><b><a href="https://www.pogdesign.co.uk/cat/Training-Day-summary" target="_blank">Training Day</a></b>
-			<li class="watched">Training Day S01E01</li>
-			<li class="watched">Training Day S01E02</li>
-			<li class="watched">Training Day S01E03</li>
-			<li class="watched">Training Day S01E04</li>
-			<li class="watched">Training Day S01E05</li>
-			<li class="watched">Training Day S01E06</li>
-			<li class="watched">Training Day S01E07</li>
-			<li class="watched">Training Day S01E08</li>
-			<li class="watched">Training Day S01E09</li>
-			<li class="ready first">Training Day S01E10</li>
-			<li class="ready">Training Day S01E11</li>
-			<li class="ready">Training Day S01E12</li>
-			<li class="ready">Training Day S01E13</li>
+		<ul id="w"><b><a href="https://www.pogdesign.co.uk/cat/Westworld-summary" target="_blank">Westworld</a></b>
+			<li class="not-aired">Westworld S02E01</li>
+			<li class="not-aired">Westworld S02E02</li>
+			<li class="not-aired">Westworld S02E03</li>
+			<li class="not-aired">Westworld S02E04</li>
+			<li class="not-aired">Westworld S02E05</li>
 		</ul>
 	</body>
 </html>
