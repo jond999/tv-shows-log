@@ -1,16 +1,14 @@
-
 # TV Shows Log
 
-**Terminal**
+`Updated: 10/06/2025`
 
-```
-$ node server.js
-```
+- HTML
+- CSS
+- JavaScript
+- Node.js
 
-**Browser** 
+### Tested on/with:
 
-link: [http://localhost:8009](http://localhost:8009)
-
-**Tested**
-
-> Google Chrome 65.0.3325.181 (Official Build) (64-bit)
+- macOS Sequoia
+- Browser
+- Node.js
